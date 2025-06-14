@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function Home() {
   return (
     <div className="min-h-screen">
@@ -31,25 +29,23 @@ export default function Home() {
             my skills to deliver high-quality digital solutions
           </p>
           <div className="mt-8">
-       <Link href={'/projects'}>
-              <button className="cssbuttons-io-button">
-                view projects
-                <div className="icon">
-                  <svg
-                    height={24}
-                    width={24}
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M0 0h24v24H0z" fill="none" />
-                    <path
-                      d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </div>
-              </button>
-       </Link>
+            <button className="cssbuttons-io-button">
+              view projects
+              <div className="icon">
+                <svg
+                  height={24}
+                  width={24}
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </button>
           </div>
         </div>
 
@@ -148,148 +144,7 @@ export default function Home() {
               Creator
             </h3>
           </div>
-
-
         </div>
-
-
-
-
-        <div className="text-center mb-16">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 mt-15 bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent">
-            This is my programme language
-          </h1>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-300 to-blue-600 mx-auto rounded-full"></div>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 max-w-6xl mx-auto">
-          <div className="flex flex-col items-center text-center group cursor-pointer transform transition-all duration-300 hover:scale-110 hover:-translate-y-2">
-            <div className="bg-white rounded-full p-6 shadow-lg group-hover:shadow-2xl transition-shadow duration-300 mb-4">
-              <img
-                src="/photos/gif/html (1).gif"
-                className="w-16 h-16 sm:w-20 sm:h-20 transition-transform duration-300 group-hover:rotate-12"
-                alt="Frontend Developer"
-              />
-            </div>
-            <h3 className="text-xl sm:text-2xl font-semibold text-blue-700 mb-1">
-              Html
-            </h3>
-          </div>
-
-          <div className="flex flex-col items-center text-center group cursor-pointer transform transition-all duration-300 hover:scale-110 hover:-translate-y-2">
-            <div className="bg-white rounded-full p-6 shadow-lg group-hover:shadow-2xl transition-shadow duration-300 mb-4">
-              <img
-                src="/photos/gif/css.gif"
-                className="w-16 h-16 sm:w-20 sm:h-20 transition-transform duration-300 group-hover:rotate-12"
-                alt="Photo Editor"
-              />
-            </div>
-            <h3 className="text-xl sm:text-2xl font-semibold text-emerald-700 mb-1">
-              Css
-            </h3>
-
-          </div>
-
-          <div className="flex flex-col items-center text-center group cursor-pointer transform transition-all duration-300 hover:scale-110 hover:-translate-y-2">
-            <div className="bg-white rounded-full p-6 shadow-lg group-hover:shadow-2xl transition-shadow duration-300 mb-4">
-              <img
-                src="/photos/js.png"
-                className="w-16 h-16 sm:w-20 sm:h-20 transition-transform duration-300 group-hover:rotate-12"
-                alt="Video Editor"
-              />
-            </div>
-            <h3 className="text-xl sm:text-2xl font-semibold text-indigo-700 mb-1">
-              Js
-            </h3>
-          </div>
-
-          <div className="flex flex-col items-center text-center group cursor-pointer transform transition-all duration-300 hover:scale-110 hover:-translate-y-2">
-            <div className="bg-white rounded-full p-6 shadow-lg group-hover:shadow-2xl transition-shadow duration-300 mb-4">
-              <img
-                src="/photos/python.png"
-                className="w-16 h-16 sm:w-20 sm:h-20 transition-transform duration-300 group-hover:rotate-12"
-                alt="3D Creator"
-              />
-            </div>
-            <h3 className="text-xl sm:text-2xl font-semibold text-amber-600 mb-1">
-              Python
-            </h3>
-          </div>
-
-
-        </div>
-
-
-
-
-
-
-        <div className="text-center mb-16">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 mt-15 bg-gradient-to-r from-amber-300 to-amber-600 bg-clip-text text-transparent">
-            This is my frameworks
-          </h1>
-          <div className="w-24 h-1 bg-gradient-to-r from-amber-300 to-amber-600 mx-auto rounded-full"></div>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 max-w-6xl mx-auto">
-          <div className="flex flex-col items-center text-center group cursor-pointer transform transition-all duration-300 hover:scale-110 hover:-translate-y-2">
-            <div className="bg-white rounded-full p-6 shadow-lg group-hover:shadow-2xl transition-shadow duration-300 mb-4">
-              <img
-                src="/photos/gif/physics.gif"
-                className="w-16 h-16 sm:w-20 sm:h-20 transition-transform duration-300 group-hover:rotate-12"
-                alt="Frontend Developer"
-              />
-            </div>
-            <h3 className="text-xl sm:text-2xl font-semibold text-blue-700 mb-1">
-              React
-            </h3>
-          </div>
-
-          <div className="flex flex-col items-center text-center group cursor-pointer transform transition-all duration-300 hover:scale-110 hover:-translate-y-2">
-            <div className="bg-white rounded-full p-6 shadow-lg group-hover:shadow-2xl transition-shadow duration-300 mb-4">
-              <img
-                src="/photos/photo.png"
-                className="w-16 h-16 sm:w-20 sm:h-20 transition-transform duration-300 group-hover:rotate-12"
-                alt="Photo Editor"
-              />
-            </div>
-            <h3 className="text-xl sm:text-2xl font-semibold text-emerald-700 mb-1">
-              Next Js
-            </h3>
-
-          </div>
-
-          <div className="flex flex-col items-center text-center group cursor-pointer transform transition-all duration-300 hover:scale-110 hover:-translate-y-2">
-            <div className="bg-white rounded-full p-6 shadow-lg group-hover:shadow-2xl transition-shadow duration-300 mb-4">
-              <img
-                src="/photos/video.png"
-                className="w-16 h-16 sm:w-20 sm:h-20 transition-transform duration-300 group-hover:rotate-12"
-                alt="Video Editor"
-              />
-            </div>
-            <h3 className="text-xl sm:text-2xl font-semibold text-indigo-700 mb-1">
-              Tailwind Css
-            </h3>
-          </div>
-
-          <div className="flex flex-col items-center text-center group cursor-pointer transform transition-all duration-300 hover:scale-110 hover:-translate-y-2">
-            <div className="bg-white rounded-full p-6 shadow-lg group-hover:shadow-2xl transition-shadow duration-300 mb-4">
-              <img
-                src="/photos/3D.png"
-                className="w-16 h-16 sm:w-20 sm:h-20 transition-transform duration-300 group-hover:rotate-12"
-                alt="3D Creator"
-              />
-            </div>
-            <h3 className="text-xl sm:text-2xl font-semibold text-amber-600 mb-1">
-              Bootstrap
-            </h3>
-          </div>
-
-
-        </div>
-
-
-
 
         {/* Tools Section */}
         <div className="mt-20">
