@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://zeyadmaher.com', // قم بتغيير هذا إلى دومين موقعك
+  siteUrl: process.env.SITE_URL || 'https://zeyad-profile.vercel.app/', // قم بتغيير هذا إلى دومين موقعك
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [
@@ -10,7 +10,7 @@ module.exports = {
       },
     ],
     additionalSitemaps: [
-      'https://zeyadmaher.com/sitemap.xml', // قم بتغيير هذا إلى دومين موقعك
+      'https://zeyad-profile.vercel.app//sitemap.xml', // قم بتغيير هذا إلى دومين موقعك
     ],
   },
   changefreq: 'weekly',

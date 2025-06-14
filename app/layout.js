@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
   export const metadata = {
-  metadataBase: new URL('https://zeyadmaher.com'), // قم بتغيير هذا إلى دومين موقعك
+  metadataBase: new URL('https://zeyad-profile.vercel.app/'), // قم بتغيير هذا إلى دومين موقعك
   title: {
     default: 'Zeyad Maher | Frontend Developer',
     template: '%s | Zeyad Maher'
@@ -34,7 +34,7 @@ const geistMono = Geist_Mono({
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://zeyadmaher.com', // قم بتغيير هذا إلى دومين موقعك
+    url: 'https://zeyad-profile.vercel.app/', // قم بتغيير هذا إلى دومين موقعك
     siteName: 'Zeyad Maher Portfolio',
     title: 'Zeyad Maher | Frontend Developer',
     description: 'Professional Frontend Developer specializing in React, Next.js, and modern web technologies.',

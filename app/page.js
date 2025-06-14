@@ -9,7 +9,7 @@ import Link from "next/link";
     openGraph: {
       title: "Zeyad Maher",
       description: "Explore the personal website and portfolio of Zeyad Maher, a passionate web developer.",
-      url: "https://zeyadmaher.com", // غيّر هذا لرابط موقعك الحقيقي
+      url: "https://zeyad-profile.vercel.app/", // غيّر هذا لرابط موقعك الحقيقي
       siteName: "Zeyad Maher",
       locale: "en_US",
       type: "website",

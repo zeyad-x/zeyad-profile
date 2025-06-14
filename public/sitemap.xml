@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://zeyadmaher.com/projects</loc><lastmod>2025-06-14T13:05:13.561Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
-<url><loc>https://zeyadmaher.com/projects/pry-time</loc><lastmod>2025-06-14T13:05:13.561Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
-<url><loc>https://zeyadmaher.com/shop</loc><lastmod>2025-06-14T13:05:13.561Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
-<url><loc>https://zeyadmaher.com/tools/photo-edit</loc><lastmod>2025-06-14T13:05:13.561Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
-<url><loc>https://zeyadmaher.com/tools</loc><lastmod>2025-06-14T13:05:13.561Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
-<url><loc>https://zeyadmaher.com/tools/to-do</loc><lastmod>2025-06-14T13:05:13.561Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
-<url><loc>https://zeyadmaher.com</loc><lastmod>2025-06-14T13:05:13.561Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
-<url><loc>https://zeyadmaher.com/about</loc><lastmod>2025-06-14T13:05:13.561Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
+<url><loc>https://zeyad-profile.vercel.app//projects</loc><lastmod>2025-06-14T13:05:13.561Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
+<url><loc>https://zeyad-profile.vercel.app//projects/pry-time</loc><lastmod>2025-06-14T13:05:13.561Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
+<url><loc>https://zeyad-profile.vercel.app//shop</loc><lastmod>2025-06-14T13:05:13.561Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
+<url><loc>https://zeyad-profile.vercel.app//tools/photo-edit</loc><lastmod>2025-06-14T13:05:13.561Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
+<url><loc>https://zeyad-profile.vercel.app//tools</loc><lastmod>2025-06-14T13:05:13.561Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
+<url><loc>https://zeyad-profile.vercel.app//tools/to-do</loc><lastmod>2025-06-14T13:05:13.561Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
+<url><loc>https://zeyad-profile.vercel.app/</loc><lastmod>2025-06-14T13:05:13.561Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
+<url><loc>https://zeyad-profile.vercel.app//about</loc><lastmod>2025-06-14T13:05:13.561Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
 </urlset>
