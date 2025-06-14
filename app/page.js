@@ -1,5 +1,24 @@
 import Link from "next/link";
 
+  export const metadata = {
+    title: "Zeyad Maher",
+    description: "The personal website of Zeyad Maher - Web Developer specialized in modern web technologies.",
+    keywords: ["Zeyad Maher", "Web Developer", "Frontend Developer", "Next.js", "React", "Portfolio"],
+    authors: [{ name: "Zeyad Maher" }],
+    robots: "index, follow",
+    openGraph: {
+      title: "Zeyad Maher",
+      description: "Explore the personal website and portfolio of Zeyad Maher, a passionate web developer.",
+      url: "https://zeyadmaher.com", // غيّر هذا لرابط موقعك الحقيقي
+      siteName: "Zeyad Maher",
+      locale: "en_US",
+      type: "website",
+    },
+    icons: {
+      icon: "/favicon.ico", // تأكد أن هذا الملف موجود داخل مجلد public
+    },
+  };
+
 export default function Home() {
   return (
     <div className="min-h-screen">
@@ -248,7 +267,7 @@ export default function Home() {
           <div className="flex flex-col items-center text-center group cursor-pointer transform transition-all duration-300 hover:scale-110 hover:-translate-y-2">
             <div className="bg-white rounded-full p-6 shadow-lg group-hover:shadow-2xl transition-shadow duration-300 mb-4">
               <img
-                src="/photos/photo.png"
+                src="/photos/next.png"
                 className="w-16 h-16 sm:w-20 sm:h-20 transition-transform duration-300 group-hover:rotate-12"
                 alt="Photo Editor"
               />
@@ -262,7 +281,7 @@ export default function Home() {
           <div className="flex flex-col items-center text-center group cursor-pointer transform transition-all duration-300 hover:scale-110 hover:-translate-y-2">
             <div className="bg-white rounded-full p-6 shadow-lg group-hover:shadow-2xl transition-shadow duration-300 mb-4">
               <img
-                src="/photos/video.png"
+                src="/photos/tailwind-css.svg"
                 className="w-16 h-16 sm:w-20 sm:h-20 transition-transform duration-300 group-hover:rotate-12"
                 alt="Video Editor"
               />
@@ -275,7 +294,7 @@ export default function Home() {
           <div className="flex flex-col items-center text-center group cursor-pointer transform transition-all duration-300 hover:scale-110 hover:-translate-y-2">
             <div className="bg-white rounded-full p-6 shadow-lg group-hover:shadow-2xl transition-shadow duration-300 mb-4">
               <img
-                src="/photos/3D.png"
+                src="/photos/bootstrap-5-logo-icon.webp"
                 className="w-16 h-16 sm:w-20 sm:h-20 transition-transform duration-300 group-hover:rotate-12"
                 alt="3D Creator"
               />
